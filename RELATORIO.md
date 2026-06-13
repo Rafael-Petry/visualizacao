@@ -18,9 +18,7 @@
 > - Para cada conjunto de dados, inclua também uma **descrição curta** explicando os dados.
 
 1. **Dataset 1**: [Microdados ENEM 2024](https://download.inep.gov.br/microdados/microdados_enem_2024.zip)
-    * **Descrição curta**: Dados de resultados obtidos pelos participantes nas provas do ENEM 2024, havendo informações sobre sua escola onde concluiu o ensino médio, notas de cada prova, etc.
-2. **Dataset 2**: [Catálogo de Escolas](https://anonymousdata.inep.gov.br/analytics/saw.dll?Portal&PortalPath=%2Fshared%2FCenso%20da%20Educa%C3%A7%C3%A3o%20B%C3%A1sica%2F_portal%2FCat%C3%A1logo%20de%20Escolas)
-    * **Descrição curta**: Banco auxiliar para consultar informações sobre as escolas pelo `CO_ESCOLA` presente nas tabelas dos microdados do ENEM. No link indicado, é possível aplicar um filtro em branco para exportar um CSV com todos os dados.
+    * **Descrição curta**: Dados de resultados obtidos pelos participantes nas provas do ENEM 2024, havendo informações sobre a UF em que a prova foi feita, notas de cada área, etc.
 
 ## Código-fonte da visualização
 
