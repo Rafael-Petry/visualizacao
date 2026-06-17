@@ -6,7 +6,7 @@
 
 ## Identificação
 
-- **Nome**: Rafael Petry da Silva
+- **Nome:** Rafael Petry da Silva
 - **Cartão UFRGS:** 00581131
 
 ## Dados utilizados
@@ -17,8 +17,8 @@
 > - Se houver mais de um conjunto de dados, liste todos separadamente.
 > - Para cada conjunto de dados, inclua também uma **descrição curta** explicando os dados.
 
-1. **Dataset 1**: [Microdados ENEM 2024 - resultados.csv](https://download.inep.gov.br/microdados/microdados_enem_2024.zip)
-    * **Descrição curta**: Dados de resultados obtidos pelos participantes nas provas do ENEM 2024, havendo informações sobre a UF em que a prova foi feita, notas de cada área, etc.
+1. **Dataset 1:** [Microdados ENEM 2024 - microdados_enem_2024/DADOS/RESULTADOS_2024.csv](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem)
+    * **Descrição curta:** Dados de resultados obtidos pelos participantes nas provas do ENEM 2024, havendo informações sobre a UF em que a prova foi feita, notas de cada área, etc.
 
 ## Código-fonte da visualização
 
@@ -26,7 +26,8 @@
 >
 > - Indique abaixo onde está, dentro deste repositório, o código-fonte usado para gerar a visualização.
 
-- **Arquivo principal**: [./enem-plot/enem_plot.ipynb](https://github.com/Rafael-Petry/visualizacao/blob/main/enem-plot/enem_plot.ipynb)
+- **Arquivo principal:** [./enem-plot/enem-plot.ipynb](https://github.com/Rafael-Petry/visualizacao/blob/main/enem-plot/enem-plot.ipynb)
+- **OBS:** Esse colab espera que o .zip dos microdados esteja no diretório do ambiente. Se o arquivo não for encontrado, ele será baixado da [fonte original](https://download.inep.gov.br/microdados/microdados_enem_2024.zip) usando `curl` com flag -k (insecure) se o usuário confirmar.
 
 
 ## Imagem da visualização gerada
@@ -36,9 +37,9 @@
 > - Insira aqui uma imagem da visualização criada por você. Troque `imagem-da-visualizacao.png` pelo caminho correto do arquivo no repositório. 
 > - Se você criou alguma visualização interativa, então descreva aqui como acessá-la. Por exemplo, se for uma página HTML, coloque o link, ou se for uma visualização 3D, descreva como compilar e executar o código. 
 
-<ins>**OBS:**</ins> Foram geradas duas versões da mesma visualização, uma estática como imagem ([./enem-plot/enem_plot.png](https://github.com/Rafael-Petry/visualizacao/blob/main/enem-plot/enem_plot.png)), e outra que possui interação como html ([./enem-plot/enem_plot.html](https://github.com/Rafael-Petry/visualizacao/blob/main/enem-plot/enem_plot.html)). A versão estática é apresentada abaixo.
+<ins>**OBS:**</ins> Foram geradas duas versões da mesma visualização, uma estática como imagem ([./enem-plot/enem-plot.png](https://github.com/Rafael-Petry/visualizacao/blob/main/enem-plot/enem-plot.png)), e outra que possui interação como html ([./enem-plot/enem-plot.html](https://github.com/Rafael-Petry/visualizacao/blob/main/enem-plot/enem-plot.html)). A versão estática é apresentada abaixo.
 
-<img width="800" height="600" alt="enem_plot" src="https://github.com/user-attachments/assets/9ee589ec-a42c-40db-a916-247d4679df29" />
+<img width="800" height="600" alt="enem-plot" src="https://github.com/user-attachments/assets/9ee589ec-a42c-40db-a916-247d4679df29" />
 
 ## Descrição da visualização
 
