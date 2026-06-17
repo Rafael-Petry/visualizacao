@@ -39,7 +39,7 @@
 
 <ins>**OBS:**</ins> Foram geradas duas versões da mesma visualização, uma estática como imagem ([./enem-plot/enem-plot.png](https://github.com/Rafael-Petry/visualizacao/blob/main/enem-plot/enem-plot.png)), e outra que possui interação como html ([./enem-plot/enem-plot.html](https://github.com/Rafael-Petry/visualizacao/blob/main/enem-plot/enem-plot.html)). A versão estática é apresentada abaixo.
 
-<img width="800" height="600" alt="enem-plot" src="https://github.com/user-attachments/assets/9ee589ec-a42c-40db-a916-247d4679df29" />
+<img width="800" height="600" alt="enem-plot" src="https://github.com/user-attachments/assets/2c9765f6-8a22-4e82-b2ff-aa0f6567a14f" />
 
 ## Descrição da visualização
 
